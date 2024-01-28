@@ -2,7 +2,7 @@
 # displays Best School 10 times.
 
 ((x=10))
-until ((x==1))
+until ((x==0))
 do
     printf "Best School"
     ((x--))
