@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#server-web_01 login
+
+#set ssh agent
+eval $("ssh-agent")
+
+#path to identity
+ssh-add ~/ssh/id_rsa
+
+#user name IP address
+ssh ubuntu@3.85.33.84
